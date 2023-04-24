@@ -7,8 +7,112 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+	body,td,th {
+    font-family: Poppins, Arial, sans-serif;
+}
+body {
+    background-color: #88B0E9;
+    background-image: url(../header.jpg);
+	max-height: 800px;
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 27%;
 
-	</head>
+	
+}
+
+img{
+	width: 450px; 
+	height: 375px;
+	
+}
+
+#login-type-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-type {
+  width: 80%;
+  min-width:800px;
+  max-width: 1200px;
+  /* min-width: 600px; */
+  color: var(--lightPrimaryColor);
+  font-family: "Courgette", cursive;
+  text-align: center;
+
+}
+
+#greetings {
+  font-size: 6.5rem;
+  margin-bottom: 0.5rem;
+}
+#subtitle-txt {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  font-family: Poppins, Arial, sans-serif;
+  font: sans-serif;
+  color: #FFFFFF;
+}
+
+#options-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  #login-type-container {
+    height: auto;
+    width: 100%;
+  }
+  #login-type {
+    width: 100%;
+    padding: 30px;
+    min-width: 0px;
+  }
+  #options-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .options {
+    margin: 10px 5px;
+  }
+}
+
+.options-image {
+  width: 240px;
+  height: 240px;
+  display: block;
+  margin: 0px auto;
+}
+
+.options-image-caption {
+  margin-top: 24px;
+  color: var(--primaryColor);
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.select-link{
+  text-decoration: none;
+}
+
+@media (min-width:800px) and (max-width: 1000px) {
+  .options-image {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 0px auto;
+  }
+}
+    </style>
+  </head>
 	<body>
 	<section class="ftco-section">
 		<div class="container-fluid px-md-5">
@@ -16,7 +120,7 @@
 				<div class="col-md-8 order-md-last">
 					<div class="row">
 						<div class="col-md-6 text-center">
-							<a class="navbar-brand" href="index.html">Fake Product Identification <span>through Blockchain</span></a>
+							<a class="navbar-brand" href="index.html"style="color: white;">counterfeit product detection <span>through Blockchain</span></a>
 						</div>
 						<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
 							<form action="#" class="searchform order-lg-last">
